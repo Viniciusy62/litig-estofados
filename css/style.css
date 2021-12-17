@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -9,8 +10,11 @@ html, body{
     font-family: Tahoma;
 }
 
+.clear{
+    clear: both;
+}
+
 header{
-    width: 100%;
     text-align: center;
 }
 
@@ -52,8 +56,10 @@ header{
     color: rgb(139, 69, 19);
 }
 
-#main-text{
+.main-text{
+    margin: 0 20px;
     padding: 50px;
+    width: 100%;
 }
 
 .apresentation p{
@@ -70,9 +76,9 @@ header{
     text-align: center;
     display: inline-block;
     font-size: 30px;
-    border-radius: 20%;
+    border-radius: 40%;
     background-color: rgb(139, 69, 19);
-    border: 10px dashed rgb(100, 69, 19);
+    
 }
 
 .contato strong{
@@ -102,12 +108,13 @@ header{
 }
 
 .container-option h6{
-    margin: 15px auto;
+    margin-top: 80px;
     font-size: 25px;
     color: rgb(139, 69, 19);
 }
 
 .container-option img{
+    margin: 20px auto;
     width: 50%;
     border-radius: 30%;
 }
@@ -133,30 +140,41 @@ header{
 }
 
 .information-left{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid red;
+    margin: 0 auto;
+    padding: 0 2%;
+    width: 100%;
+    max-width: 1280px;
+    border: 2px solid black;
+    text-align: center;
 }
-    
+
+.image-left{
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(255, 0, 0);
+    display: inline-block; 
+}
+
 .image-left img{
-    margin: 25px;
-    border: 2px solid red;
     width: 100%;
     border-radius: 30%;
-    min-width: 300px;
-    display: flex;
+}
+
+.paragraph-right{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    border: 2px solid rgb(60, 255, 0);
+    
 }
 
 .paragraph-right p{
-    border: 2px solid red;
-    padding: 25px;
+    padding: 0px;
     text-align: justify;
     font-size: 22px;
-    width: 50%;
-    display: flex;
+    width: 500px;
 }
+
 
 .information-right{
     margin: 20px 50px;
@@ -228,8 +246,29 @@ address{
     padding: 20px;
     font-size: 20px;
     color: rgb(110, 69, 19);
+    text-align: center;
 }
 
-address b{
-    font-size: 35px;
+.social{
+    text-align: center;
 }
+
+.social a{
+    font-size: 35px;
+    color: rgb(139, 69, 19);
+    letter-spacing: 10px;
+}
+
+.social a:hover{
+    color: rgb(90, 69, 19);
+    
+}
+
+.register{
+    margin: 50px auto;
+    padding: 10px;
+    border-top: 2px solid rgb(110, 69, 19);
+    text-align: center;
+    font-family: tahoma;
+}
+
