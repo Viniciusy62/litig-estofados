@@ -24,8 +24,8 @@ header{
 }
 
 .logo img{
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 12%;
 }
 
 .menu{
@@ -80,7 +80,6 @@ header{
     font-size: 2em;
     border-radius: 40%;
     background-color: rgb(139, 69, 19);
-    
 }
 
 .contato strong{
@@ -138,13 +137,11 @@ header{
     text-align: center;
     font-size: 1.5em;
     color: rgb(139, 69, 19);
-    
 }
 
 .information-left{
     margin: auto;
 	width: 100%;
-	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -168,7 +165,7 @@ header{
 .paragraph-right{
     width: 50%;
 	min-width: 250px;
-	padding: 0 10px;
+	padding: 0 2px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -184,23 +181,16 @@ header{
 @media screen and (max-width: 900px){
     .information-left{
         flex-direction: column;
-        margin: 150px auto;
     }
+    
     .information-right{
         flex-direction: column-reverse;
-    }
-    .image-right{
-        margin-top: 200px;
-    }
-    .contato-center{
-        margin-top: 250px;
     }
 }
 
 .information-right{
     margin: auto;
 	width: 100%;
-	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -298,7 +288,6 @@ address{
 
 .social a:hover{
     color: rgb(90, 69, 19);
-    
 }
 
 .register{
