@@ -28,6 +28,7 @@ header{
 .logo img{
     width: 12%;
     height: 12%;
+    min-width: 100px;
 }
 
 .menu{
@@ -39,7 +40,7 @@ header{
     font-size: 1.5em;
     color: rgb(139, 69, 19);
     text-decoration: none;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .apresentation{
@@ -233,7 +234,7 @@ header{
 }
 
 .end-section{
-    margin: 80px auto;
+    margin: 40px auto;
     padding: 20px;
     text-align: center;
 }
@@ -300,3 +301,14 @@ address{
     color: rgb(90, 69, 19);
 }
 
+@media screen and (max-width: 600px){
+    .main-text p{
+        text-align: justify;
+    }
+    .information p{
+        text-align: justify;
+    }
+    .end-section-1 p{
+        text-align: justify;
+    }
+}
