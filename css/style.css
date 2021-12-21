@@ -301,6 +301,9 @@ address{
 }
 
 @media screen and (max-width: 600px){
+    .menu{
+        word-spacing: 10px;
+    }
     .main-text p{
         text-align: justify;
     }
