@@ -304,6 +304,9 @@ address{
     .menu{
         word-spacing: 10px;
     }
+    .menu a{
+        font-size: 1.2em;
+    }
     .main-text p{
         text-align: justify;
     }
