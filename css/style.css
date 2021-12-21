@@ -9,7 +9,7 @@ html, body{
     background-color: rgb(247, 247, 247);
     font-family: Tahoma;
     font-size: 100%;
-    max-width: 95%;
+    max-width: 1800px;
     margin: auto;
 }
 
@@ -61,8 +61,8 @@ header{
 }
 
 .main-text{
-    margin: 20px auto;
-    width: 100%;
+    margin: 20px;
+    
 }
 
 .apresentation p{
@@ -128,14 +128,13 @@ header{
 
 .information h2{
     margin: 35px auto;
-    padding: 10px;
     font-size: 1.5em;
     color: rgb(100, 69, 19);
     text-align: center;
 }
 
 .information p{
-    margin: 20px auto;
+    margin: 20px;
     text-align: center;
     font-size: 1.5em;
     color: rgb(139, 69, 19);
@@ -152,7 +151,6 @@ header{
 .image-left{
     width: 80%;
 	min-width: 200px;
-	padding: 0 2px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -167,7 +165,6 @@ header{
 .paragraph-right{
     width: 80%;
 	min-width: 250px;
-	padding: 0 2px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -201,7 +198,6 @@ header{
 .image-right{
     width: 80%;
 	min-width: 200px;
-	padding: 0 2px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -216,7 +212,6 @@ header{
 .paragraph-left{
     width: 80%;
 	min-width: 250px;
-	padding: 0 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -235,7 +230,6 @@ header{
 
 .end-section{
     margin: 40px auto;
-    padding: 20px;
     text-align: center;
 }
 
@@ -252,7 +246,7 @@ header{
 }
 
 .end-section-1 p{
-    margin: 20px auto;
+    margin: 20px;
     padding: 20px;
     font-size: 1.5em;
     color: rgb(139, 69, 19);
@@ -272,13 +266,13 @@ header{
 
 address{
     margin: 20px auto;
-    padding: 20px;
     font-size: 1.5em;
     color: rgb(110, 69, 19);
     text-align: center;
 }
 
 .social{
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -295,10 +289,15 @@ address{
 .register{
     margin: 50px auto;
     padding: 10px;
-    border-top: 2px solid rgb(110, 69, 19);
+    
     text-align: center;
     font-family: tahoma;
     color: rgb(90, 69, 19);
+}
+
+.register p{
+    margin: auto 20px;
+    border-top: 2px solid rgb(110, 69, 19);
 }
 
 @media screen and (max-width: 600px){
